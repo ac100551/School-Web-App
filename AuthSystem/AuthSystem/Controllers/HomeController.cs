@@ -35,6 +35,21 @@ namespace AuthSystem.Controllers
             return View();
         }
 
+        public IActionResult English()
+        {
+            return View();
+        }
+
+        public IActionResult Math()
+        {
+            return View();
+        }
+
+        public IActionResult Science()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
