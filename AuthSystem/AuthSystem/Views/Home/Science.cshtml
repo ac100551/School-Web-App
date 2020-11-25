@@ -1,5 +1,50 @@
-﻿@{
-    ViewData["Title"] = "The Science Department";
-}
+﻿<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body {
+        font-family: "Times New Roman", Georgia, Serif;
+    }
 
-    <p> Update Science item here</p>
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+    }
+</style>
+<body>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+        <img src="~/Images/science.jpg" alt="Science" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+            <h1 class="w3-xxlarge">Welcome Science</h1>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:1100px">
+
+        <!-- Bottle Rocketship Section -->
+        <div class="w3-row w3-padding-64" id="Bottle Rocketship">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="~/Images/bottle.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">Bottle Rocketship</h1><br>
+                <h5 class="w3-center">On 22 November 2020</h5>
+                <p class="w3-large">Bottle Rockets. Those two simple words turned a boring summer day into one filled with, fun, excitement and learning. I’m not sure if your kids are getting a bit bored this summer, but recently when my boys were complaining I mentioned those two little words and suddenly everything changed! As soon as they heard that there would be rockets, chemistry and explosions (well kind of!), they were very enthusiastic.</p>
+            </div>
+        </div>
+
+        <hr>
+
+
+
+        <!-- End page content -->
+    </div>
+</body>
+</html>
